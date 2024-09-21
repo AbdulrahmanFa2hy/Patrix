@@ -6,7 +6,7 @@ let navLink = document.querySelectorAll(".nav-link");
 let navBtn = document.querySelector(".navbar-toggler");
 
 window.onscroll = function () {
-  let currentScroll = window.pageYOffset;
+  let currentScroll = window.scrollY;
   if (currentScroll < prevScroll || currentScroll == prevScroll) {
     navbar.style.top = "0px";
   } else {

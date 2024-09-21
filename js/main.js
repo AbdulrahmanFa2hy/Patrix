@@ -1,4 +1,4 @@
-let prevScroll = window.pageYOffset;
+let prevScroll = window.scrollY;
 let navbar = document.querySelector(".navbar");
 let portfolioBox = document.querySelectorAll(".filter-box");
 let filterBtns = document.querySelectorAll(".filter-btn");
